@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<HBox fx:id="hboxRoot" maxHeight="-Infinity" 
+		maxWidth="-Infinity" minHeight="-Infinity" 
+		minWidth="-Infinity" spacing="5.0" 
+		xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+		fx:controller="application.MyController">
+   <children>
+      <TextField fx:id="outputField" editable="false" prefWidth="200.0" />
+      <Button fx:id="myButton" mnemonicParsing="false" onAction="#showDateTime" text="show Date Time" />
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</HBox>
